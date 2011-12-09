@@ -1,0 +1,38 @@
+/* 
+    Document   : mainStyleSheet
+    Created on : Nov 28, 2011, 12:03:02 PM
+    Author     : ubi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+
+#logo{
+    position: absolute;
+    margin-left: -15px;
+    z-index: 9999999999999;
+}
+#spacer{
+
+    margin-top: 150px;
+    padding-top: 30px;
+}
+#nav{
+    float:right;
+    margin-top: 220px;
+    cursor: pointer;
+}
+
+.switcher{
+    
+   
+}

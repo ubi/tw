@@ -1,0 +1,20 @@
+/* 
+    Document   : overRider
+    Created on : Nov 29, 2011, 2:29:54 PM
+    Author     : ubi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.ui-multiselect-checkboxes ui-helper-reset{
+    width: 300px;
+}
+
+#examlple{
+    margin-left: 15px;
+}

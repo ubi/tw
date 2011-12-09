@@ -1,0 +1,45 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link href="css/extLib/bootstrap.css" rel="stylesheet"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+        <script  type="text/javascript" src="http://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script  type="text/javascript">
+            function showModal(){
+                //alert("lol");
+                $('#modal-from-dom').modal('show') 
+            }
+        </script>
+    </head>
+    <body>
+        <div>    <a class="btn" data-controls-modal="my-modal" data-backdrop="static" onclick="showModal()">Launch Modal</a></div>
+
+        <div id="modal-from-dom" class="modal hide fade" >
+            <div class="modal-header">
+                <a href="#" class="close">×</a>
+                <h3>Modal Heading</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn primary">Primary</a>
+                <a href="#" class="btn secondary">Secondary</a>
+            </div>
+        </div>
+        
+        <div>
+            <img src="img/errorIcon.png"/>
+            <div>textlfkdnvkjfbkgbfbn fbnjgbngkj jbgfbjfog</div>
+            
+        </div>
+    </body>
+
+</html>
